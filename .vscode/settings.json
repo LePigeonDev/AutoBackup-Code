@@ -1,0 +1,12 @@
+
+{
+  // Désactive la validation CSS classique qui génère ces faux-positifs
+  "css.validate": false,
+  "css.lint.vendorPrefix": "ignore",
+
+  // Associe tous les *.css à la coloration JavaFX-CSS
+  "files.associations": {
+    "*.css": "javafx-css"
+  },
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

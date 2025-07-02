@@ -1,0 +1,29 @@
+{
+  "bin": {"autobackup": "jdeploy-bundle/jdeploy.js"},
+  "author": "LePigeon",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": "",
+  "version": "1.0.0",
+  "jdeploy": {
+    "jdk": "false",
+    "javaVersion": "21",
+    "icon": "icon.ico",
+    "jar": "target/autobackup-1.0-jar-with-dependencies.jar",
+    "javafx": "true",
+    "title": "Autobackup",
+    "stripJavaFXFiles": false
+  },
+  "dependencies": {
+    "command-exists-promise": "^2.0.2",
+    "node-fetch": "2.6.7",
+    "tar": "^4.4.8",
+    "yauzl": "^2.10.0",
+    "shelljs": "^0.8.4"
+  },
+  "license": "ISC",
+  "name": "autobackup",
+  "files": ["jdeploy-bundle"],
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}

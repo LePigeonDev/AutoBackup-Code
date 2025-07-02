@@ -41,7 +41,7 @@
 - jpackage (inclus dans le JDK)
 
 ```bash
-git clone https://github.com/TON_NOM_UTILISATEUR/AutoBackup.git
+git clone https://github.com/LePigeonDev/AutoBackup-Code.git
 cd AutoBackup/autobackup
 mvn clean package
 

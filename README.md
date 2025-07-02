@@ -28,7 +28,7 @@
 
 ### Via l'exécutable
 
-1. Télécharge le fichier `AutoBackup.exe` depuis la [dernière release](https://github.com/TON_NOM_UTILISATEUR/AutoBackup/releases).
+1. Télécharge le fichier `AutoBackup.exe` depuis la [dernière release](https://github.com/LePigeonDev/AutoBackup-Code/releases/tag/v1.0.0).
 2. Lance l’installation.
 3. Utilise le raccourci sur le bureau ou dans le menu Démarrer.
 
@@ -50,3 +50,5 @@ Puis, pour lancer :
 ```bash
 java --module-path "chemin/vers/javafx-sdk-21.0.7/lib" --add-modules javafx.controls,javafx.fxml -jar target/autobackup-1.0-jar-with-dependencies.jar
 ```
+
+2025 - *LePigeon*
